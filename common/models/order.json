@@ -1,0 +1,54 @@
+{
+  "name": "Order",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "oid": {
+      "type": "string",
+      "required": true
+    },
+    "restaurant_name": {
+      "type": "string",
+      "required": true
+    },
+    "restaurant_contact_num": {
+      "type": "string",
+      "required": true
+    },
+    "customer_name": {
+      "type": "string",
+      "required": true
+    },
+    "customer_contact_num": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "required": true,
+      "default": "Date.now"
+    },
+    "updated": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
