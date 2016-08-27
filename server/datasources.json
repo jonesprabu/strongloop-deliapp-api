@@ -3,7 +3,7 @@
     "name": "db",
     "connector": "memory"
   },
-  "emailDs": {
+  "email-ds": {
     "name": "email-ds",
     "connector": "mail",
     "transports": [
@@ -23,9 +23,9 @@
     ]
   },
   "mongodb-deliapp-ds": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "mongodb://localhost:27017/deliapp",
+    "host": "ds145405.mlab.com",
+    "port": 45405,
+    "url": "mongodb://admin:deliapp@ds145405.mlab.com:45405/deliapp",
     "database": "deliapp",
     "name": "mongodb-deliapp-ds",
     "connector": "mongodb"
