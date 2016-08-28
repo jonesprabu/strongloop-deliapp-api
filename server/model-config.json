@@ -17,7 +17,11 @@
     "dataSource": "email-ds"
   },
   "User": {
-    "dataSource": "mongodb-deliapp-ds"
+    "dataSource": "mongodb-deliapp-ds",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "AccessToken": {
     "dataSource": "mongodb-deliapp-ds",
@@ -37,7 +41,7 @@
   },
   "Order": {
     "dataSource": "mongodb-deliapp-ds",
-    "public": true,
+    "public": false,
     "$promise": {},
     "$resolved": true
   }
