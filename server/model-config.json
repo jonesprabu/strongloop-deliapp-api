@@ -41,7 +41,7 @@
   },
   "Order": {
     "dataSource": "mongodb-deliapp-ds",
-    "public": false,
+    "public": true,
     "$promise": {},
     "$resolved": true
   }
