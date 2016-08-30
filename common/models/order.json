@@ -40,15 +40,20 @@
     },
     "created": {
       "type": "date",
-      "required": true,
-      "default": "Date.now"
+      "required": true
     },
     "updated": {
       "type": "date"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "userId": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
